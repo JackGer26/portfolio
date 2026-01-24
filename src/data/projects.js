@@ -29,6 +29,7 @@ export const projects = [
     slug: "react-jobs-board",
     title: "React Jobs Board",
     subtitle: "Frontend · React",
+    category: "learning",
     summary: "A React-based jobs board focused on component architecture, state-driven UI, and modern frontend tooling.",
     overview: "A single-page jobs board application built with React to practice real-world frontend patterns such as component composition, routing, and CRUD-style data handling. The project evolved from a learning exercise into a fully branded platform with responsive design and structured UI components.",
     highlights: [
@@ -49,6 +50,7 @@ export const projects = [
     slug: "movie-tracker-app",
     title: "Movie Watch List",
     subtitle: "Full-Stack · MVC · Authentication",
+    category: "learning",
     summary: "A full-stack movie watchlist application built with MVC architecture, user authentication, and persistent data storage.",
     overview: "A full-stack movie watchlist application that allows users to create accounts, log in securely, and manage a personal collection of movies. Built using an MVC architecture, the project demonstrates backend structure, authentication flows, and database-driven CRUD functionality scoped to individual users.",
     highlights: [
@@ -71,6 +73,7 @@ export const projects = [
     slug: "zenia-bakery",
     title: "Zenia Bakery",
     subtitle: "Freelance · Frontend",
+    category: "freelance",
     summary: "A freelance website built for a London-based bakery, focused on clean design, responsiveness, and real client requirements.",
     overview: "A freelance website built for a London-based bakery, focused on translating business requirements into a clean, responsive, and user-friendly web presence. The project emphasized clear communication, practical design decisions, and delivering a production-ready site for a real client.",
     highlights: [
@@ -92,6 +95,7 @@ export const projects = [
     slug: "green-cars-airport-transfers",
     title: "Green Cars Airport Transfers",
     subtitle: "Freelance · Frontend",
+    category: "freelance",
     summary: "Freelance website for a local airport transfer company with online booking and contact integration.",
     overview: "A professional website built for Green Cars Airport Transfers, a local transportation service. The project focused on creating a clean, trustworthy online presence that would convert visitors into customers. Features include service information, pricing displays, and integrated contact forms with Email.js for seamless customer inquiries.",
     highlights: [
@@ -113,6 +117,7 @@ export const projects = [
     slug: "cafe-rain",
     title: "Cafe Rain",
     subtitle: "Freelance · Frontend",
+    category: "freelance",
     summary: "A freelance project for a small local cafe featuring menu displays, atmosphere showcase, and customer engagement.",
     overview: "A custom website built for Cafe Rain, a cozy local coffee shop looking to establish their online presence. The project focused on creating a warm, inviting digital experience that reflects the cafe's atmosphere while providing essential information like menu items, location, and hours. The design emphasizes visual storytelling through imagery and creates an emotional connection with potential customers.",
     highlights: [
