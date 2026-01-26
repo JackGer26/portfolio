@@ -32,7 +32,7 @@ export default function Navbar() {
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
-            <a className="btn primary" href="https://jackgermainresume.tiiny.site/" target="_blank" rel="noreferrer">
+            <a className="btn primary" href="/resume.pdf" target="_blank" rel="noreferrer">
               Resume
             </a>
           </nav>
@@ -55,7 +55,7 @@ export default function Navbar() {
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
-            <a className="btn primary" href="https://jackgermainresume.tiiny.site/" target="_blank" rel="noreferrer">
+            <a className="btn primary" href="/resume.pdf" target="_blank" rel="noreferrer">
               Resume
             </a>
           </nav>

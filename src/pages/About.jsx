@@ -92,7 +92,7 @@ export default function About() {
       </section>
 
       <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 8 }}>
-        <a className="btn primary" href="https://jackgermainresume.tiiny.site/" target="_blank" rel="noreferrer">Download Resume</a>
+        <a className="btn primary" href="/resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
         <a className="btn" href="https://github.com/JackGer26" target="_blank" rel="noreferrer">GitHub</a>
         <a className="btn" href="https://www.linkedin.com/in/jack-germain/" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
