@@ -71,7 +71,7 @@ export default function Home() {
           <Link className="btn" to="/about">Learn More</Link>
           <a className="btn" href="https://github.com/JackGer26" target="_blank" rel="noreferrer">GitHub</a>
           <a className="btn" href="https://www.linkedin.com/in/jack-germain/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a className="btn" href="https://jackgermainresume.tiiny.site/" target="_blank" rel="noreferrer">Resume</a>
+          <a className="btn" href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
         </div>
       </section>
     </div>

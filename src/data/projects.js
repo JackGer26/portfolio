@@ -1,3 +1,8 @@
+// Binary Upload Boom
+import bub1 from "../assets/projects/binary-upload-boom/1.png";
+import bub2 from "../assets/projects/binary-upload-boom/2.png";
+import bub3 from "../assets/projects/binary-upload-boom/3.png";
+
 // React Jobs Board
 import rjb1 from "../assets/projects/react-jobs-board/1.png";
 import rjb2 from "../assets/projects/react-jobs-board/2.png";
@@ -26,6 +31,29 @@ import cr4 from "../assets/projects/cafe-rain/4.png";
 
 export const projects = [
   {
+    slug: "binary-upload-boom",
+    title: "Binary Upload Boom",
+    subtitle: "Full-Stack · Social Network · MVC",
+    category: "learning",
+    summary: "A full-stack social media application with user authentication, image uploads, and interactive commenting system built with Node.js and MongoDB.",
+    overview: "A comprehensive social networking platform built as part of the 100Devs bootcamp curriculum. The application features secure user authentication, image sharing via Cloudinary integration, and an interactive commenting system. Built using MVC architecture, this project demonstrates modern full-stack development practices including session management, file uploads, and database-driven CRUD operations.",
+    highlights: [
+      "Implemented secure user authentication and session management using Passport.js with bcrypt password hashing",
+      "Built complete MVC architecture with Express.js, MongoDB, and EJS templating for server-side rendering",
+      "Integrated Cloudinary for secure image upload and storage with Multer file handling middleware",
+      "Developed interactive commenting system and responsive UI that works seamlessly across all devices",
+    ],
+    techStack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "Passport.js", "EJS", "Cloudinary", "Multer", "CSS3"],
+    tags: ["Node", "Express", "MongoDB", "Full-Stack"],
+    githubUrl: "https://github.com/JackGer26/binary-upload-boom",
+    liveUrl: "https://binary-upload-boom-d56c.onrender.com",
+    screenshots: [
+      { src: bub1, alt: "Binary Upload Boom - social media feed" },
+      { src: bub2, alt: "Binary Upload Boom - user profile and posts" },
+      { src: bub3, alt: "Binary Upload Boom - post creation and image upload" },
+    ],
+  },
+  {
     slug: "react-jobs-board",
     title: "React Jobs Board",
     subtitle: "Frontend · React",
@@ -40,7 +68,7 @@ export const projects = [
     techStack: ["React", "Vite", "JavaScript", "Tailwind CSS", "React Router", "JSON Server"],
     tags: ["React", "JavaScript", "CSS"],
     githubUrl: "https://github.com/JackGer26/100Jobs",
-    liveUrl: null,
+    liveUrl: "https://100jobs.netlify.app/",
     screenshots: [
       { src: rjb2, alt: "React Jobs Board - jobs backend view" },
       { src: rjb3, alt: "React Jobs Board - jobs displayed on homepage" },
