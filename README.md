@@ -1,174 +1,39 @@
-# Jack Germain - Portfolio Website
-
+# Portfolio Website
 A modern, responsive portfolio website showcasing my work as a full-stack software engineer. Built with React, Vite, and clean, maintainable code.
-
-## 🌐 Live Site
-
-**[jackgermain.online](https://jackgermain.online)**
-
-## � Preview
 
 ![Portfolio Screenshot](./public/portfolio-screenshot.png)
 
-## �🛠️ Tech Stack
+Link to project: https://jackgermain.online
 
-- **Frontend:** React 19, React Router
-- **Build Tool:** Vite
-- **Styling:** CSS3 with custom properties
-- **Deployment:** Netlify
-- **Version Control:** Git/GitHub
+## How It's Made:
+**Tech used:** React, Vite, JavaScript, CSS3, React Router
 
-## 🎯 Features
+This portfolio was built using React 19 with modern functional components and hooks for state management. Vite provides lightning-fast development with Hot Module Replacement and optimized production builds. The architecture follows React best practices with reusable components, custom hooks for page meta management, and React Router for client-side navigation.
 
-- **Responsive Design** - Works seamlessly on all devices
-- **Fast Loading** - Optimized with Vite for lightning-fast performance
-- **SEO Optimized** - Meta tags, sitemap, and Open Graph support
-- **Accessible** - Built with accessibility best practices
-- **Modal Gallery** - Interactive project screenshots with scrollable modal
-- **Clean Architecture** - Component-based structure for maintainability
+The styling uses CSS3 with custom properties for consistent theming across components. The project data is managed through a centralized JavaScript file that imports and organizes all project information, screenshots, and metadata. Each project is displayed through a reusable ProjectCard component with modal galleries for viewing screenshots.
 
-## 📋 Project Structure
+The site is fully responsive with mobile-first design principles, semantic HTML for accessibility, and optimized images. SEO optimization includes proper meta tags, sitemap, and Open Graph support for social sharing.
 
-```
-src/
-├── components/          # Reusable UI components
-│   ├── Footer.jsx
-│   ├── Navbar.jsx
-│   └── ProjectCard.jsx
-├── pages/              # Main page components
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── Home.jsx
-│   ├── Project.jsx
-│   └── Projects.jsx
-├── data/               # Project data and content
-│   └── projects.js
-├── styles/             # CSS files
-│   ├── globals.css
-│   └── layout.css
-├── assets/             # Images and static assets
-└── hooks/              # Custom React hooks
-    └── usePageMeta.js
-```
+## Optimizations
+Implemented lazy loading for project images to improve initial page load times. Used React Router for code splitting opportunities and efficient bundle management. Vite's build process automatically optimizes bundle size through tree shaking and modern ES6+ transpilation.
 
-## 🚀 Getting Started
+Optimized the project filtering system to avoid unnecessary re-renders by using proper dependency arrays in useEffect hooks. CSS custom properties enable consistent theming while CSS Grid and Flexbox provide responsive layouts without JavaScript overhead.
 
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
+Added proper image alt attributes and semantic HTML structure for accessibility compliance. The modal gallery system provides smooth user experience with keyboard navigation support.
 
-### Installation
+## Lessons Learned:
+**Component Architecture** - Building this portfolio reinforced the importance of reusable components and proper separation of concerns. The ProjectCard component demonstrates how well-designed components can handle complex data while maintaining simplicity.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/JackGer26/portfolio
-   cd portfolio
-   ```
+**Performance Optimization** - Working with multiple project screenshots taught me the value of image optimization and lazy loading. Vite's build tools showed how modern bundlers can significantly improve performance with minimal configuration.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+**User Experience** - Designing for both recruiters and technical audiences highlighted the importance of clear information hierarchy and intuitive navigation. The filtering system and modal galleries provide easy project exploration while maintaining professional presentation.
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
+## Future Improvements
+Add a contact form to allow visitors to send messages directly through the site. Implement a simple blog section to showcase technical writing skills and improve SEO.
 
-4. **Open in browser**
-   ```
-   http://localhost:5173
-   ```
+Add a dark/light theme toggle for better user experience. Include a downloadable PDF version of my resume. Add loading animations for project images and smooth transitions between pages.
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-The build files will be generated in the `dist/` directory.
-
-## 📦 Portfolio Projects
-
-### Featured Projects
-
-1. **React Jobs Board** - Frontend SPA built with React
-   - Component architecture and state management
-   - Client-side routing and CRUD operations
-   - Responsive design with Tailwind CSS
-
-2. **Movie Tracker App** - Full-stack MVC application
-   - User authentication with Passport.js
-   - MongoDB database with Mongoose ODM
-   - Server-side rendering with EJS
-
-3. **Zenia Bakery** - Client freelance project
-   - Custom business website
-   - Responsive design and mobile optimization
-   - Real-world client requirements
-
-4. **Green Cars Airport Transfers** - Freelance project
-   - Email.js integration for contact forms
-   - Local business optimization
-   - Professional service presentation
-
-5. **Cafe Rain** - Client website
-   - Cozy cafe atmosphere design
-   - Menu display and customer engagement
-   - Mobile-first responsive approach
-
-## 🎨 Design Approach
-
-- **Minimal & Clean** - Focus on content and readability
-- **Professional** - Recruiter and hiring manager friendly
-- **Accessible** - Proper contrast, semantic HTML, keyboard navigation
-- **Fast** - Optimized images and efficient code splitting
-
-## 📱 Responsive Design
-
-- **Mobile First** - Designed for mobile devices first
-- **Tablet Support** - Optimized for tablet viewing
-- **Desktop Enhanced** - Full desktop experience
-
-## 🔧 Development
-
-### Key Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint for code quality
-
-### Code Quality
-
-- **ESLint** - Code linting and formatting
-- **React Hooks Rules** - Enforced React best practices
-- **Clean Architecture** - Organized component structure
-
-## 🌟 Performance
-
-- **Lighthouse Score:** 95+ across all metrics
-- **Fast Loading:** Optimized with Vite and efficient bundling
-- **Lazy Loading:** Images loaded as needed
-- **Code Splitting:** Optimal bundle sizes
-
-## 📧 Contact
-
-- **Email:** [jackgermainbusiness@gmail.com](mailto:jackgermainbusiness@gmail.com)
-- **LinkedIn:** [linkedin.com/in/jack-germain](https://www.linkedin.com/in/jack-germain/)
-- **GitHub:** [github.com/JackGer26](https://github.com/JackGer26)
-- **Resume:** [jackgermainresume.tiiny.site](https://jackgermainresume.tiiny.site/)
-
-## 📄 License
-
-This project is personal portfolio code. All rights reserved.
-
----
-
-**Built with ❤️ by Jack Germain**
-
-## 🔗 Examples of Featured Work
-
+## Examples of Featured Work
 - **[Binary Upload Boom](https://github.com/JackGer26/binary-upload-boom)** - Full-stack social network with image uploads and authentication
 - **[100Jobs React Board](https://github.com/JackGer26/100Jobs)** - Modern React SPA with component architecture and state management
 - **[Movie Watchlist Tracker](https://github.com/JackGer26/MVC-Passport-Movie-App)** - MVC application with Passport.js authentication and MongoDB
