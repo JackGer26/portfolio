@@ -166,3 +166,9 @@ This project is personal portfolio code. All rights reserved.
 ---
 
 **Built with ❤️ by Jack Germain**
+
+## 🔗 Examples of Featured Work
+
+- **[Binary Upload Boom](https://github.com/JackGer26/binary-upload-boom)** - Full-stack social network with image uploads and authentication
+- **[100Jobs React Board](https://github.com/JackGer26/100Jobs)** - Modern React SPA with component architecture and state management
+- **[Movie Watchlist Tracker](https://github.com/JackGer26/MVC-Passport-Movie-App)** - MVC application with Passport.js authentication and MongoDB
