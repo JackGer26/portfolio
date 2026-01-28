@@ -6,7 +6,11 @@ A modern, responsive portfolio website showcasing my work as a full-stack softwa
 
 **[jackgermain.online](https://jackgermain.online)**
 
-## 🛠️ Tech Stack
+## � Preview
+
+![Portfolio Screenshot](./public/portfolio-screenshot.png)
+
+## �🛠️ Tech Stack
 
 - **Frontend:** React 19, React Router
 - **Build Tool:** Vite
