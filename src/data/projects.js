@@ -46,6 +46,9 @@ import lv1 from "../assets/projects/luca-vanstone/1.png";
 import lv2 from "../assets/projects/luca-vanstone/2.png";
 import lv3 from "../assets/projects/luca-vanstone/3.png";
 
+// Rock Paper Scissors Lizard Spock
+import rps1 from "../assets/projects/rock-paper-scissors/1.png";
+
 export const projects = [
   {
     slug: "binary-upload-boom",
@@ -251,6 +254,27 @@ export const projects = [
       { src: lv1, alt: "Luca Vanstone Portfolio - homepage and featured work" },
       { src: lv2, alt: "Luca Vanstone Portfolio - gallery and artwork showcase" },
       { src: lv3, alt: "Luca Vanstone Portfolio - about and contact section" },
+    ],
+  },
+  {
+    slug: "rock-paper-scissors-lizard-spock",
+    title: "Rock Paper Scissors Lizard Spock",
+    subtitle: "Learning · Full-Stack · Node.js",
+    category: "learning",
+    summary: "A full-stack web game implementing the expanded Rock Paper Scissors rules with Node.js backend and vanilla JavaScript frontend.",
+    overview: "A collaborative full-stack web application that implements the classic Rock Paper Scissors game with the added complexity of Lizard and Spock (popularized by The Big Bang Theory). Built as a learning project to understand client-server communication, RESTful API design, and real-time user interaction using vanilla JavaScript and Node.js.",
+    highlights: [
+      "Built complete client-server architecture using Node.js HTTP module and vanilla JavaScript",
+      "Implemented RESTful API design with proper HTTP methods and JSON response handling",
+      "Developed comprehensive game logic for expanded Rock Paper Scissors Lizard Spock rules",
+      "Added loading states and error handling for improved user experience on hosted platforms",
+    ],
+    techStack: ["HTML5", "CSS3", "JavaScript", "Node.js"],
+    tags: ["Node", "JavaScript", "Full-Stack"],
+    githubUrl: "https://github.com/JackGer26/Rock-Paper-Scissors-Lizard-Spock",
+    liveUrl: "https://rock-paper-scissors-lizard-spock-kb42.onrender.com",
+    screenshots: [
+      { src: rps1, alt: "Rock Paper Scissors Lizard Spock - game interface and gameplay" },
     ],
   },
 ];
