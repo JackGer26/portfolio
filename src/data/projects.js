@@ -1,3 +1,9 @@
+// ShiftDrop
+import sd1 from "../assets/projects/shift-drop/1.png";
+import sd2 from "../assets/projects/shift-drop/2.png";
+import sd3 from "../assets/projects/shift-drop/3.png";
+import sd4 from "../assets/projects/shift-drop/4.png";
+
 // Binary Upload Boom
 import bub1 from "../assets/projects/binary-upload-boom/1.png";
 import bub2 from "../assets/projects/binary-upload-boom/2.png";
@@ -50,6 +56,30 @@ import lv3 from "../assets/projects/luca-vanstone/3.png";
 import rps1 from "../assets/projects/rock-paper-scissors/1.png";
 
 export const projects = [
+  {
+    slug: "shift-drop",
+    title: "ShiftDrop",
+    subtitle: "Full-Stack · SaaS · React & Node.js",
+    category: "passion",
+    summary: "A full-stack workforce scheduling platform for hospitality and retail, with a rota builder, staff management, and a mobile-optimised personal schedule view for employees.",
+    overview: "ShiftDrop is a full-stack SaaS-style scheduling platform built to solve the real problem of managing weekly rotas in hospitality and retail. Managers can build and publish weekly schedules using a grid-based rota builder with live hours tracking and hard constraint validation. Staff access a clean, mobile-optimised personal view showing their upcoming and past shifts. The project features JWT authentication, role-based routing, a pure domain layer for independently testable business logic, and a feature-colocated frontend architecture — built with React, TypeScript, Node.js, Express, and MongoDB.",
+    highlights: [
+      "Built a full rota builder with live contracted-hours tracking, hard constraint validation (max hours, double-booking, role requirements), and published rota immutability enforced at the API level",
+      "Designed a pure domain layer (validateAssignment, calculateWarnings, applyAssignment) decoupled from React and the database, enabling straightforward unit testing of scheduling logic",
+      "Implemented JWT authentication with bcrypt and role-based routing separating manager and staff experiences",
+      "Architected a feature-colocated frontend (rota-builder, staff-management, templates, my-rota, dashboard) with strict TypeScript and a clean adapter boundary between API and domain types",
+    ],
+    techStack: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Vite", "JWT", "Vitest", "Zod"],
+    tags: ["React", "TypeScript", "Node.js", "Full-Stack"],
+    githubUrl: "https://github.com/JackGer26/ShiftDrop",
+    liveUrl: "https://shiftdrop.netlify.app/login",
+    screenshots: [
+      { src: sd1, alt: "ShiftDrop - rota builder grid" },
+      { src: sd2, alt: "ShiftDrop - staff management view" },
+      { src: sd3, alt: "ShiftDrop - my rota personal schedule" },
+      { src: sd4, alt: "ShiftDrop - dashboard and navigation" },
+    ],
+  },
   {
     slug: "binary-upload-boom",
     title: "Binary Upload Boom",
